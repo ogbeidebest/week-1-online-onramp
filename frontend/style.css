@@ -1,0 +1,133 @@
+body, *, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+padding-left: 10%;
+padding-right: 10%;
+margin: 1%;
+}
+.d-flex{
+    display: flex;
+}
+.space{
+    justify-content: space-between;
+}
+nav{
+
+    justify-content: space-between;
+   
+    margin: auto;
+    text-align: center;
+}
+.border{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+    width: 80%;
+     border-bottom: rgb(230, 210, 210) solid 1px;
+}
+.nav-second-div .img-2{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.sneaker1{
+width: 100%;
+height: 25em;
+border-radius: 10%;
+}
+ul{
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: 4%;
+    text-transform: capitalize;
+  
+}
+.nav-second-div .img-1{
+    margin-top: 18%;
+    margin-right: 30%;
+    margin-left: 0%;
+    padding: 10%;
+}
+.nav-div{
+    font-size: 40px;
+    font-weight: 500;
+}
+ul li{
+    margin: 5%;
+    text-decoration: none;
+    marker: none;
+}
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+   
+    margin: 10%  1%  1%  1%;
+}
+ .image:hover{
+     opacity: 0.2;
+ }
+.main-2{
+    margin: 5%;
+    padding: 3%;
+}
+.main-2 h3{
+    text-transform: uppercase;
+    color: orange;
+}
+.main-2 h2{
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.main-2 p{
+    text-align: justify;
+    margin: 1px;
+}
+.main-2 .dollar{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 2%;
+}
+.main-2 .percent{
+    background-color: blanchedalmond;
+    color: orange;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 2.5%;
+    padding: 1%;
+}
+.main-2 .sign{
+    background-color: azure;
+    margin-top: 3%;
+    padding: 1.5%;
+    width: 100px;
+}
+.sign p{
+    margin-left: 20%;
+    margin-right: 2%;
+    font-size:20px;
+    color: orange;
+    /* padding: 30%; */
+
+}
+.main-2 button{
+    background-color: orange;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10%;
+    padding: 8px;
+    border: none;
+    width: 120px;
+    border-radius: 3px;
+    text-transform: capitalize;
+
+}
+.sign .colo{
+    color: black;
+}
