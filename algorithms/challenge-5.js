@@ -10,7 +10,7 @@ function replaceDivisible(x, y) {
     for (let char = 0; char < x.length; char++) {
 
         if (x[char] % y === 0) {
-            x[char] = "IsDivisible";
+            x[char] = "isDivisible";
         }
 
     }
@@ -24,3 +24,4 @@ function replaceDivisible(x, y) {
 console.log(replaceDivisible([2, 4, 3, 6, 5], 3));
 console.log(replaceDivisible([12, 4, 3, 6, 5], 2));
 module.exports = replaceDivisible;
+

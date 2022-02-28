@@ -17,7 +17,7 @@ function isDivisbleByN(arr, n) {
     }
     return newArr;
 }
-console.log(isDivisbleByN([21, 3, 5, 6, 3, 6, 7, 4], 7));
+console.log(isDivisbleByN([21, 3, 5, 6, 3, 6, 7, 4], 2));
 console.log(isDivisbleByN([21, 3, 5, 6, 3, 6, 7, 4], 7));
 
 module.exports = isDivisbleByN
